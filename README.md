@@ -47,6 +47,7 @@ Creates a cpp script as:
 		return 0;                                                                                                                                                                                                                                                              
 	}  
 And finally creates a bash script named sol.sh of the form:
+
 	clang++ main.cpp                                                                                                                                                                                                                                                               
 	./a.out                                                                                                                                                                                                                                                                        
 	python3 main.py                                                                                                                                                                                                                                                                
