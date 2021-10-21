@@ -29,21 +29,22 @@ Ndev.sh: Basically the same as the previous ones but this creates a Python scrip
 	import matplotlib.patches
  
 	def main():
-        	#open number file
-        	x = open('x.dat', 'r')
+		#open number file
+		x = open('x.dat', 'r')
 
 	if __name__ == '__main__':
-        	main()
+		main()
 Creates a cpp script as:
+
 	#include <iostream>                                                              
 	#include <fstream>                                                                                                                                                                                                                                                             
 	#include <cmath>                                                                                                                                                                                                                                                               
 	int main(){                                                                                                                                                                                                                                                                    
-        	std::ofstream file;                                                                                                                                                                                                                                                    
-        	file.open('x.dat');                                                                                                                                                                                                                                                    
-        	//tratamiento de la data dentro del archivo                                                                                                                                                                                                                            
-        	file.close()                                                                                                                                                                                                                                                           
-        	return 0;                                                                                                                                                                                                                                                              
+		std::ofstream file;                                                                                                                                                                                                                                                    
+		file.open('x.dat');                                                                                                                                                                                                                                                    
+		//tratamiento de la data dentro del archivo                                                                                                                                                                                                                            
+		file.close()                                                                                                                                                                                                                                                           
+		return 0;                                                                                                                                                                                                                                                              
 	}  
 And finally creates a bash script named sol.sh of the form:
 	clang++ main.cpp                                                                                                                                                                                                                                                               
