@@ -1,7 +1,6 @@
 read dirname
 mkdir $dirname
 cd $dirname
-pipenv shell
 git init
 touch main.cpp
 echo "#include <iostream>" > main.cpp

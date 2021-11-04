@@ -1,7 +1,6 @@
 read dirname
 mkdir $dirname
 cd $dirname
-pipenv shell
 git init
 touch main.py
 echo " " > main.py
