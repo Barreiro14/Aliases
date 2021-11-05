@@ -1,6 +1,6 @@
-read dirname
-mkdir $dirname
-cd $dirname
+#!/bin/bash
+mkdir $1
+cd $1
 git init
 touch main.cpp
 echo "#include <iostream>" > main.cpp
