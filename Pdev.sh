@@ -19,4 +19,4 @@ echo "git commit -m $commitname" >> gitPush.sh
 echo "git push -u origin main" >> gitPush.sh
 git add *
 git commit -m "First commit"
-
+code .
