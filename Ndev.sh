@@ -31,14 +31,6 @@ echo "clang++ main.cpp" > sol.sh
 echo "./a.out" >> sol.sh
 echo "python3 main.py" >> sol.sh
 echo "rm x.dat" >> sol.sh
-touch gitPush.sh
-echo "git status" > gitPush.sh
-echo "git add *" >> gitPush.sh
-echo "git status" >> gitPush.sh
-echo "echo 'klk con este commit?' " >> gitPush.sh
-echo "read commitname" >> gitPush.sh
-echo "git commit -m $commitname" >> gitPush.sh
-echo "git push -u origin main" >> gitPush.sh
 git add *
 git commit -m "First commit"
 code .
