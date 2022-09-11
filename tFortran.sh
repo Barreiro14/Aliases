@@ -12,3 +12,4 @@ echo "end program Tarea${1}GabrielBarreiro" >> tarea${1}GabrielBarreiro.f90
 touch runTest.sh
 echo "gfortran -o tarea${1} tarea${1}GabrielBarreiro.f90" > runTest.sh
 echo "./tarea${1}" >> runTest.sh
+echo "rm tarea${1}" >> runTest
