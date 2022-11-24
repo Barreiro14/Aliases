@@ -2,6 +2,7 @@
 mkdir $1
 cd $1
 git init
+pipenv shell
 touch main.py
 echo " " > main.py
 echo "def main():" >> main.py
