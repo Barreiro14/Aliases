@@ -2,7 +2,6 @@
 mkdir $1
 cd $1
 git init
-pipenv shell
 touch main.py
 echo " " > main.py
 echo "def main():" >> main.py
@@ -13,3 +12,4 @@ echo "	main()" >> main.py
 git add *
 git commit -m "First commit"
 code .
+pipenv shell
