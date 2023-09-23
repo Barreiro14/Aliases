@@ -5,6 +5,7 @@ git init
 touch main.py
 echo " " > main.py
 echo "def main():" >> main.py
+echo "  print("test")" >> main.py
 echo "	#main function" >> main.py
 echo "" >> main.py
 echo "if __name__ == '__main__':" >> main.py
